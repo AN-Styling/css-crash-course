@@ -1,0 +1,35 @@
+// -------------------
+// -----------
+.flex-example-new {
+    width: 1320px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(50, 122, 185);
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container {
+    height: 500px;
+    height: 1000px;background-color: red;
+    margin: auto;
+    display: flex;
+
+    gap: 20px;  // gives gap of 20px between the columns  
+
+    flex-direction: row;
+    justify-content: center; 
+    //  when flex-direction: row; -> justify-content represents horizontal direction
+    //                           -> Align-items represents vertical
+
+    // flex-direction: column;
+    // justify-content: center; 
+    //  when flex-direction: column; -> justify-content represents vertical direction
+                           //    -> Align-items represents horizontal
+
+}
+.box {
+    background-color: rgb(32, 173, 32);
+    border: 2px solid green;
+    width: 100px;
+}

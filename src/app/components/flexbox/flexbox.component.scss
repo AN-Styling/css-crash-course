@@ -1,0 +1,38 @@
+// .flexbox-example {
+//     display: flex;
+//     width: 1320px;
+//     margin: auto;
+// }
+// .flexbox-item {
+//     color: white;
+//     background-color: rgb(241, 157, 54);
+//     width: 500px;
+//     margin: 10px;
+//     text-align: center;
+// }
+.project-section-mid {
+    width: 1320px;
+    margin: auto;
+}
+.project-section-mid h1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+.project-item-outer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-item {
+    width: 18%;
+    margin: 1%;
+    text-align: center;
+    background: whitesmoke;
+    padding: 30px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px;
+}
+.project-item img {
+    width: 50px;
+}
+

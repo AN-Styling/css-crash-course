@@ -1,0 +1,22 @@
+.main p {
+    font-size: 40px;
+}
+p {
+    font-size: 30px;
+}
+.main > p {
+    font-size: 40px;
+    color: chartreuse;
+}
+.main:hover {
+    background-color: aquamarine;
+}
+.title-container {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+.title-container:hover {
+    background-color: rgb(13, 223, 27);
+    transition: 1s;
+}
